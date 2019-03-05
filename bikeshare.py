@@ -1,6 +1,6 @@
 import time
 import pandas as pd
-import numpy as np
+
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -107,13 +107,13 @@ def view_raw_data(df):
     if choice.lower() == 'no':
         return
 
-    tracker = 1
+    num_lines = 1
     for label, content in df.iterrows():
         print('label', label)
         print('Content', content)
-        tracker += 1
+        num_lines += 1
 
-        if tracker % 5 == 0:
+        if num_lines 5 == 0:
             choice = input('Would you like to view 5 more views? Enter yes or no.\n')
             if choice.lower() == 'no':
                 return
