@@ -21,13 +21,18 @@ This project analyses bikeshare data from Chicago, New York City and Washington
 * total travel time
 * average travel time
 
-##### User info
+##### User info:
 * total of each user type
 * total count of each gender(NYC and Chicago)
 * most frequent  birth year, oldest youngest birth year (NYC and Chicago)
 
 ### Files used
-Include the files used
+bikeshare.py
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+https://stackoverflow.com/questions/24870306/how-to-check-if-a-column-exists-in-pandas
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.map.html
+https://stackoverflow.com/questions/16476924/how-to-iterate-over-rows-in-a-dataframe-in-pandas
