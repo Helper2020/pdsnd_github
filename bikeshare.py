@@ -93,6 +93,15 @@ def load_data(city, month, day):
     return df
 
 def view_raw_data(df):
+    '''
+    Shows raw data from Data Frame object
+
+    Args:
+        (DataFrame) A Panda's Data Frame object
+
+    Returns:
+        No return value
+    '''
 
     choice = input('\nWould you like to see view data? Enter yes or no.\n')
     if choice.lower() == 'no':
